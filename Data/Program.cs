@@ -36,11 +36,10 @@ namespace Data
                             return "int";
                         case "nvarchar":
                         case "varchar":
+                        case "char":
                             return "string";
                         case "datetime":
                             return "DateTime";
-                        case "char":
-                            return "string";
                         case "tinyint":
                             return "byte";
                         // 可以继续添加其他类型映射
