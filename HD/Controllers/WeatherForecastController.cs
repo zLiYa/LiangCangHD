@@ -14,12 +14,10 @@ namespace HD
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
-        private readonly AppDbContext _context;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger, AppDbContext context)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
-            _context = context;
         }
 
         [HttpGet]
@@ -37,14 +35,9 @@ namespace HD
         [HttpGet("Usw")]
         public string[] Usw()
         {
-            string[] Temp = { "¹þ¹þ","ÎûÎû","¸Â¸Â" };
+            string[] Temp = { "ysodiuf","wofuwoe","lsdfhwo" };
             return Temp;
         }
 
-        [HttpGet("GetAllUsers")]
-        public async Task<ActionResult<IEnumerable<UserInfo>>> GetAllUsers()
-        {
-            return await _context.UserInfos.ToListAsync();
-        }
     }
 }

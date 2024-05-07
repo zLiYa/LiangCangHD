@@ -9,6 +9,7 @@ namespace Data
 {
     partial class Program
     {
+        //数据库实体导出
         static void Main(string[] args)
         {
             // 数据库连接字符串

@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HD", "HD\HD.csproj", "{ED83
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{AD810F3E-4E45-495D-B2C6-47540C8DD8B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F2.EntityFramework.Core", "F2.EntityFramework.Core\F2.EntityFramework.Core.csproj", "{EF1D6E22-3DF1-4593-BD4B-B21DDBC28299}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AD810F3E-4E45-495D-B2C6-47540C8DD8B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD810F3E-4E45-495D-B2C6-47540C8DD8B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD810F3E-4E45-495D-B2C6-47540C8DD8B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF1D6E22-3DF1-4593-BD4B-B21DDBC28299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1D6E22-3DF1-4593-BD4B-B21DDBC28299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1D6E22-3DF1-4593-BD4B-B21DDBC28299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1D6E22-3DF1-4593-BD4B-B21DDBC28299}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
